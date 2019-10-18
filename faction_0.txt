@@ -1,0 +1,8 @@
+[Faction]
+name: Space Pirates
+role: pirates
+
+[Character]
+name: Bernd Schulz
+credits: 6042
+ship: corsair

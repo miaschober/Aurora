@@ -1,0 +1,12 @@
+[Ship]
+name: ExampleShip
+description: This ship is a ship. It got wings.
+default_price: 12000
+
+weapon_slots: 2
+light_equipment_slots: 3
+medium_equipment_slots: 1
+heavy_equipment_slots: 1
+
+max_hp: 5000
+max_shield: 8000

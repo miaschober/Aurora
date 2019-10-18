@@ -1,0 +1,10 @@
+[System]
+name: Sageborg
+pos: 0-0
+
+[Station]
+name: Die Burg
+pos: 6-10
+faction: Space Pirates
+equipment: default_laser_turret
+equipment: default_station_shield_red
