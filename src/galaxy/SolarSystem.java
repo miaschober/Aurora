@@ -10,10 +10,6 @@ public class SolarSystem {
     int posX,posY;              //Position within the galaxy
     private int lod;            //Level of danger
 
-    //The Objects that are currently in the System.
-    private ArrayList<Ship> ships = new ArrayList<Ship>();
-    private ArrayList<Object> objects = new ArrayList<Object>();
-
     //Constructor
 
     /**
@@ -47,14 +43,6 @@ public class SolarSystem {
 
     }
 
-    //Ship List
-    public void addShip(Ship ship) { ships.add(ship); }
-    public void removeShip(Ship ship) { ships.remove(ship); }
-
-    //Object List
-    public ArrayList<Object> getObjects() { return objects; };
-    public void addObject(Object obj) { objects.add(obj); }
-    public void removeObject(Object obj) { objects.remove(obj); }
 
     //Getter & Setter
 
